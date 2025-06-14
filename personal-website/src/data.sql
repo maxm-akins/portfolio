@@ -1,0 +1,3 @@
+INSERT INTO work_experience (company, location, logo, role, time, details) VALUES
+('Bank of New York', 'Pittsburgh, PA', 'bny.png', 'Software Engineer Intern', 'June 2024 - August 2024', '{Completed production and pre-production coding tasks on two separate teams. Developed in C# .NET, SQL, Javascript, and Python across the two units. Gained experience in practicing Agile and participated in all of the various ceremonies. Applied the AI resources available at the firm to a feature that was incorporated into an existing application and released into production. The feature saved around ten hours a week for the business team.}')
+

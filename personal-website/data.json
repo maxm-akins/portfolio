@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "company": "Bank of New York",
+    "role": "Software Engineer Intern",
+    "location": "Pittsburgh, PA",
+    "details": [
+      "Completed production and pre-production coding tasks on two separate teams. Developed in C# .NET, SQL, Javascript, and Python across the two units. Gained experience in practicing Agile and participated in all of the various ceremonies. Applied the AI resources available at the firm to a feature that was incorporated into an existing application and released into production. The feature saved around ten hours a week for the business team."
+    ],
+    "time": "June 2024 - August 2024",
+    "logo": "bny.png"
+  },
+  {
+    "id": 52,
+    "company": "GrayMatter Systems",
+    "role": "Software Engineer Intern",
+    "location": "Warrendale, PA",
+    "details": [
+      "Designed and continue to maintain an implementation of a full MERN (MongoDB, Express, React, Node.js) stack website for use within the company to apply standards to administrative and financial processes—authentication and authorization functions included with additional practices to maintain security. The website's functionality streamlines work processes and creates efficiency in the amount of one hour of work per use per employee.",
+      " Project-managed the development of a partner company's new product. The project’s success provided GrayMatter with participation in the partner's annual conference, creating exposure to hundreds of new business opportunities.",
+      "Engineered and maintained the front end of an intra-company process web app using HTML, CSS, and Javascript."
+    ],
+    "time": "May 2022 - Febuary 2025",
+    "logo": "graymatter.png"
+  },
+  {
+    "id": 102,
+    "company": "University of Pittsburgh’s FacetLab",
+    "role": "Web Developer Research Assistant",
+    "location": "Pittsburgh, PA",
+    "details": [
+      "Converted an existing Objective C iOS app into a MERN stack website. The website aims to teach children English or Spanish through an interactive story-like interface."
+    ],
+    "time": "September 2022 - March 2023",
+    "logo": "pitt.png"
+  },
+  {
+    "id": 152,
+    "company": "University of Pittsburgh’s FacetLab",
+    "role": "Data Analyst Research Assistant",
+    "location": "Pittsburgh, PA",
+    "details": [
+      "Utilized Python and programming libraries (e.g. Pandas, Matplotlib, and SciKit-Learn) to analyze large quantities of data to gain insight into student learning behavior."
+    ],
+    "time": "December 2021 - May 2022",
+    "logo": "pitt.png"
+  }
+],
+
+
+[
+  {
+    "id": 1,
+    "name": "Course Judge",
+    "description": "Developing a website in order to give college students insights into specific classes at their respective universities by viewing the opinions of other students through a peer-review process concerning a specific course and/or professor.",
+    "publicLink": "https://coursejudge.com/",
+    "githubLink": "https://github.com/maxm-akins/course-judge"
+  },
+  {
+    "id": 2,
+    "name": "Personal Website",
+    "description": "Developed a personal website to provide a more user-friendly view of my resume and demonstrate skills as a web developer. ",
+    "publicLink": "https://maxmakins.com/",
+    "githubLink": "https://github.com/maxm-akins/personal-site"
+  },
+  {
+    "id": 3,
+    "name": "Language Development Site",
+    "description": "I assisted in converting an Objective C iOS app into a React-based website. This website helped young children develop their English and/or Spanish comprehension skills while allowing researchers to analyze the factors that contributed to learning.",
+    "publicLink": null,
+    "githubLink": null
+  }
+]
