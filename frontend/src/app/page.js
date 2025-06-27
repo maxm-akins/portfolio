@@ -17,7 +17,7 @@ export default function Home() {
             Welcome
           </motion.h1>
           <p className="mt-6 text-lg md:text-xl max-w-xl text-gray-500">
-            to the personal portfolio of Maxm Akins, a full-stack developer with a passion for building tomorrow's software.
+            { " to the personal portfolio of Maxm Akins, a full-stack developer with a passion for building tomorrow's software." }
           </p>
 
         </section>

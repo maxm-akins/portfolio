@@ -1,0 +1,20 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8080
+
+  backend:
+    build:
+      context: ./personal-website
+    ports:
+      - "8080:8080"
+    environment:
+      - spring.datasource.url=jdbc:postgresql://portfolio-cluster-1.cluster-cwsqgpfikbng.us-east-2.rds.amazonaws.com/db1
+      - spring.datasource.username=maxm
+      - spring.datasource.password=optimus44

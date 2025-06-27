@@ -21,13 +21,13 @@ export default function ContactPage() {
                 transition={ { duration: 0.8 } }
                 className="max-w-2xl mx-auto text-center"
             >
-                <h1 className="text-4xl font-bold mb-6">Let's Connect</h1>
+                <h1 className="text-4xl font-bold mb-6">{ "Let's Connect" }</h1>
                 <p className="text-gray-400 mb-10">
                     Whether you have a question, project idea, or just want to say hi — my inbox is open.
                 </p>
 
                 { submitted ? (
-                    <p className="text-green-400 text-xl">Thanks! I'll be in touch soon.</p>
+                    <p className="text-green-400 text-xl">{ "Thanks! I'll be in touch soon." }</p>
                 ) : (
                     <form onSubmit={ handleSubmit } className="space-y-6">
                         <input

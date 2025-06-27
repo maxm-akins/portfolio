@@ -37,7 +37,7 @@ export default function Education() {
             >
                 <section>
                     <h2 className="text-2xl font-semibold mb-3">College Coursework</h2>
-                    <p className="text-gray-500 mb-4">Here are some key computer science courses I've completed:</p>
+                    <p className="text-gray-500 mb-4">{ "Here are some key computer science courses I've completed:" }</p>
                     <div style={ { height: 300, width: '100%' } }>
                         <AgGridReact
                             theme={ themeBalham }
